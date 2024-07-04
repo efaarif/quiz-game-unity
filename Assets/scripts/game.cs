@@ -5,137 +5,137 @@ public class game : MonoBehaviour
 {
     public void playlesson1scene()
     {
-        SceneManager.LoadScene("lesson1 scene");
+        SceneManager.LoadScene("L1PAGE1");
     }
     
     public void playlesson2scene()
     {
-        SceneManager.LoadScene("lesson2 scene");
+        SceneManager.LoadScene("L2PAGE1");
     }
 
      public void playlesson3scene()
     {
-        SceneManager.LoadScene("lesson3 scene");
+        SceneManager.LoadScene("L3PAGE1");
     } 
     
     public void playlesson4scene()
     {
-        SceneManager.LoadScene("lesson4 scene");
+        SceneManager.LoadScene("L4PAGE1");
     } 
     
     public void playlesson5scene()
     {
-        SceneManager.LoadScene("lesson5 scene");
+        SceneManager.LoadScene("L5PAGE1");
     } 
     
     public void playlesson6scene()
     {
-        SceneManager.LoadScene("lesson6 scene");
+        SceneManager.LoadScene("L6PAGE1");
     } 
     
     public void playlesson7scene()
     {
-        SceneManager.LoadScene("lesson7 scene");
+        SceneManager.LoadScene("L7PAGE1");
     } 
     
     public void playlesson8scene()
     {
-        SceneManager.LoadScene("lesson8 scene");
+        SceneManager.LoadScene("L8PAGE1");
     } 
     
     public void playlesson9scene()
     {
-        SceneManager.LoadScene("lesson9 scene");
+        SceneManager.LoadScene("L9PAGE1");
     } 
     
     public void playlesson10scene()
     {
-        SceneManager.LoadScene("lesson10 scene");
+        SceneManager.LoadScene("L10PAGE1");
     } 
     
     public void playlesson11scene()
     {
-        SceneManager.LoadScene("lesson11 scene");
+        SceneManager.LoadScene("L11PAGE1");
     }
 
      public void playlesson12scene()
     {
-        SceneManager.LoadScene("lesson12 scene");
+        SceneManager.LoadScene("L12PAGE1");
     }
 
      public void playlesson13scene()
     {
-        SceneManager.LoadScene("lesson13 scene");
+        SceneManager.LoadScene("L13PAGE1");
     }
 
      public void playlesson14scene()
     {
-        SceneManager.LoadScene("lesson14 scene");
+        SceneManager.LoadScene("L14PAGE1");
     }
 
      public void playlesson15scene()
     {
-        SceneManager.LoadScene("lesson15 scene");
+        SceneManager.LoadScene("L15PAGE1");
     }
 
      public void playlesson16scene()
     {
-        SceneManager.LoadScene("lesson16 scene");
+        SceneManager.LoadScene("L16PAGE1");
     }
 
      public void playlesson17scene()
     {
-        SceneManager.LoadScene("lesson17 scene");
+        SceneManager.LoadScene("L17PAGE1");
     }
 
      public void playlesson18scene()
     {
-        SceneManager.LoadScene("lesson18 scene");
+        SceneManager.LoadScene("L18PAGE1");
     }
 
      public void playlesson19scene()
     {
-        SceneManager.LoadScene("lesson19 scene");
+        SceneManager.LoadScene("L19PAGE1");
     }
 
      public void playlesson20scene()
     {
-        SceneManager.LoadScene("lesson20 scene");
+        SceneManager.LoadScene("L20PAGE1");
     }
 
      public void playlesson21scene()
     {
-        SceneManager.LoadScene("lesson21 scene");
+        SceneManager.LoadScene("L21PAGE1");
     }
 
      public void playlesson22scene()
     {
-        SceneManager.LoadScene("lesson22 scene");
+        SceneManager.LoadScene("L22PAGE1");
     }
 
      public void playlesson23scene()
     {
-        SceneManager.LoadScene("lesson23 scene");
+        SceneManager.LoadScene("L23PAGE1");
     }
 
      public void playlesson24scene()
     {
-        SceneManager.LoadScene("lesson24 scene");
+        SceneManager.LoadScene("L24PAGE1");
     }
 
      public void playlesson25scene()
     {
-        SceneManager.LoadScene("lesson25 scene");
+        SceneManager.LoadScene("L25PAGE1");
     }
 
      public void playlesson26scene()
     {
-        SceneManager.LoadScene("lesson26 scene");
+        SceneManager.LoadScene("L26PAGE1");
     }
 
      public void playlesson27scene()
     {
-        SceneManager.LoadScene("lesson27 scene");
+        SceneManager.LoadScene("L27PAGE1");
     }
 
     public void backmenu()
