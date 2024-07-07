@@ -395,6 +395,7 @@ GameObject:
   - component: {fileID: 138291936}
   - component: {fileID: 138291938}
   - component: {fileID: 138291939}
+  - component: {fileID: 138291940}
   m_Layer: 5
   m_Name: noon
   m_TagString: Untagged
@@ -517,6 +518,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 100, y: 100}
   m_EdgeRadius: 0
+--- !u!114 &138291940
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 138291934}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b218ac10d0014f846b2d20894bdfd046, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canvas: {fileID: 683205484}
 --- !u!1 &140845310
 GameObject:
   m_ObjectHideFlags: 0
@@ -601,7 +615,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1082301890}
-        m_TargetAssemblyTypeName: DragAndDrop, Assembly-CSharp
+        m_TargetAssemblyTypeName: newScriptDragNdrop, Assembly-CSharp
         m_MethodName: backL1PAGE2
         m_Mode: 1
         m_Arguments:
@@ -875,7 +889,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -0.000107282875}
+  m_AnchoredPosition: {x: 0, y: -0.00095345586}
   m_SizeDelta: {x: 0, y: 1461.915}
   m_Pivot: {x: 0, y: 1}
 --- !u!1 &270293416
@@ -1045,6 +1059,7 @@ GameObject:
   - component: {fileID: 286652029}
   - component: {fileID: 286652031}
   - component: {fileID: 286652032}
+  - component: {fileID: 286652033}
   m_Layer: 5
   m_Name: zuad
   m_TagString: Untagged
@@ -1167,6 +1182,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 100, y: 100}
   m_EdgeRadius: 0
+--- !u!114 &286652033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 286652027}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b218ac10d0014f846b2d20894bdfd046, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canvas: {fileID: 683205484}
 --- !u!1 &358656169
 GameObject:
   m_ObjectHideFlags: 0
@@ -1332,6 +1360,7 @@ GameObject:
   - component: {fileID: 382246756}
   - component: {fileID: 382246758}
   - component: {fileID: 382246759}
+  - component: {fileID: 382246760}
   m_Layer: 5
   m_Name: ghain
   m_TagString: Untagged
@@ -1454,6 +1483,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 100, y: 100}
   m_EdgeRadius: 0
+--- !u!114 &382246760
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 382246754}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b218ac10d0014f846b2d20894bdfd046, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canvas: {fileID: 683205484}
 --- !u!1 &391666868
 GameObject:
   m_ObjectHideFlags: 0
@@ -1542,6 +1584,7 @@ GameObject:
   - component: {fileID: 399753856}
   - component: {fileID: 399753858}
   - component: {fileID: 399753859}
+  - component: {fileID: 399753860}
   m_Layer: 5
   m_Name: chotihe
   m_TagString: Untagged
@@ -1664,6 +1707,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 100, y: 100}
   m_EdgeRadius: 0
+--- !u!114 &399753860
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 399753854}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b218ac10d0014f846b2d20894bdfd046, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canvas: {fileID: 683205484}
 --- !u!1 &427235017
 GameObject:
   m_ObjectHideFlags: 0
@@ -1826,6 +1882,7 @@ GameObject:
   - component: {fileID: 467490269}
   - component: {fileID: 467490268}
   - component: {fileID: 467490271}
+  - component: {fileID: 467490272}
   m_Layer: 5
   m_Name: se
   m_TagString: Untagged
@@ -1935,6 +1992,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 100, y: 100}
   m_EdgeRadius: 0
+--- !u!114 &467490272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 467490266}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b218ac10d0014f846b2d20894bdfd046, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canvas: {fileID: 683205484}
 --- !u!1 &483562101
 GameObject:
   m_ObjectHideFlags: 0
@@ -2175,6 +2245,7 @@ GameObject:
   - component: {fileID: 567293005}
   - component: {fileID: 567293007}
   - component: {fileID: 567293008}
+  - component: {fileID: 567293009}
   m_Layer: 5
   m_Name: hamza
   m_TagString: Untagged
@@ -2297,6 +2368,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 100, y: 100}
   m_EdgeRadius: 0
+--- !u!114 &567293009
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 567293003}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b218ac10d0014f846b2d20894bdfd046, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canvas: {fileID: 683205484}
 --- !u!1 &609587665
 GameObject:
   m_ObjectHideFlags: 0
@@ -2594,6 +2678,7 @@ GameObject:
   - component: {fileID: 678180352}
   - component: {fileID: 678180354}
   - component: {fileID: 678180355}
+  - component: {fileID: 678180356}
   m_Layer: 5
   m_Name: meem
   m_TagString: Untagged
@@ -2716,6 +2801,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 100, y: 100}
   m_EdgeRadius: 0
+--- !u!114 &678180356
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 678180350}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b218ac10d0014f846b2d20894bdfd046, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canvas: {fileID: 683205484}
 --- !u!1 &683205481
 GameObject:
   m_ObjectHideFlags: 0
@@ -2982,6 +3080,7 @@ GameObject:
   - component: {fileID: 694992326}
   - component: {fileID: 694992328}
   - component: {fileID: 694992329}
+  - component: {fileID: 694992330}
   m_Layer: 5
   m_Name: kaaf
   m_TagString: Untagged
@@ -3104,6 +3203,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 100, y: 100}
   m_EdgeRadius: 0
+--- !u!114 &694992330
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 694992324}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b218ac10d0014f846b2d20894bdfd046, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canvas: {fileID: 683205484}
 --- !u!1 &701652591
 GameObject:
   m_ObjectHideFlags: 0
@@ -3134,8 +3246,8 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1320486890}
   - {fileID: 1187236992}
+  - {fileID: 1320486890}
   m_Father: {fileID: 176358028}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -4002,8 +4114,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1612788027}
   m_HandleRect: {fileID: 1612788026}
   m_Direction: 2
-  m_Value: 1.0000001
-  m_Size: 0.45802253
+  m_Value: 1.0000012
+  m_Size: 0.45801935
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -4506,6 +4618,7 @@ GameObject:
   - component: {fileID: 1001610306}
   - component: {fileID: 1001610308}
   - component: {fileID: 1001610309}
+  - component: {fileID: 1001610310}
   m_Layer: 5
   m_Name: sheen
   m_TagString: Untagged
@@ -4628,6 +4741,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 100, y: 100}
   m_EdgeRadius: 0
+--- !u!114 &1001610310
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1001610304}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b218ac10d0014f846b2d20894bdfd046, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canvas: {fileID: 683205484}
 --- !u!1 &1041398248
 GameObject:
   m_ObjectHideFlags: 0
@@ -4747,36 +4873,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b218ac10d0014f846b2d20894bdfd046, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  te: {fileID: 1320486889}
-  se: {fileID: 467490266}
-  badahe: {fileID: 1235120042}
-  zaal: {fileID: 1839357402}
-  re: {fileID: 1288849756}
-  sheen: {fileID: 1001610304}
-  zuad: {fileID: 286652027}
-  zoe: {fileID: 1645527341}
-  ghain: {fileID: 382246754}
-  qaaf: {fileID: 1358764781}
-  kaaf: {fileID: 694992324}
-  meem: {fileID: 678180350}
-  noon: {fileID: 138291934}
-  chotihe: {fileID: 399753854}
-  hamza: {fileID: 567293003}
-  teduplicate: {fileID: 1187236991}
-  seduplicate: {fileID: 1795498394}
-  badaheduplicate: {fileID: 1711916968}
-  zaalduplicate: {fileID: 1615304585}
-  reduplicate: {fileID: 909339422}
-  sheenduplicate: {fileID: 1625140120}
-  zuadduplicate: {fileID: 1773005997}
-  zoeduplicate: {fileID: 1176637449}
-  ghainduplicate: {fileID: 794770665}
-  qaafduplicate: {fileID: 740604835}
-  kaafduplicate: {fileID: 612459556}
-  meemduplicate: {fileID: 33365286}
-  noonduplicate: {fileID: 1294584356}
-  chotiheduplicate: {fileID: 1608187617}
-  hamzaduplicate: {fileID: 1260247181}
+  canvas: {fileID: 683205484}
 --- !u!1 &1097526753
 GameObject:
   m_ObjectHideFlags: 0
@@ -5366,6 +5463,7 @@ GameObject:
   - component: {fileID: 1235120044}
   - component: {fileID: 1235120046}
   - component: {fileID: 1235120047}
+  - component: {fileID: 1235120048}
   m_Layer: 5
   m_Name: badahe
   m_TagString: Untagged
@@ -5488,6 +5586,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 100, y: 100}
   m_EdgeRadius: 0
+--- !u!114 &1235120048
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1235120042}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b218ac10d0014f846b2d20894bdfd046, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canvas: {fileID: 683205484}
 --- !u!1 &1260247181
 GameObject:
   m_ObjectHideFlags: 0
@@ -5710,6 +5821,7 @@ GameObject:
   - component: {fileID: 1288849758}
   - component: {fileID: 1288849760}
   - component: {fileID: 1288849761}
+  - component: {fileID: 1288849762}
   m_Layer: 5
   m_Name: re
   m_TagString: Untagged
@@ -5832,6 +5944,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 100, y: 100}
   m_EdgeRadius: 0
+--- !u!114 &1288849762
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1288849756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b218ac10d0014f846b2d20894bdfd046, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canvas: {fileID: 683205484}
 --- !u!1 &1294584356
 GameObject:
   m_ObjectHideFlags: 0
@@ -5919,6 +6044,7 @@ GameObject:
   - component: {fileID: 1320486892}
   - component: {fileID: 1320486891}
   - component: {fileID: 1320486893}
+  - component: {fileID: 1320486894}
   m_Layer: 5
   m_Name: te
   m_TagString: Untagged
@@ -6028,6 +6154,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 100, y: 100}
   m_EdgeRadius: 0
+--- !u!114 &1320486894
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1320486889}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b218ac10d0014f846b2d20894bdfd046, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canvas: {fileID: 683205484}
 --- !u!1 &1358764781
 GameObject:
   m_ObjectHideFlags: 0
@@ -6041,6 +6180,7 @@ GameObject:
   - component: {fileID: 1358764783}
   - component: {fileID: 1358764785}
   - component: {fileID: 1358764786}
+  - component: {fileID: 1358764787}
   m_Layer: 5
   m_Name: qaaf
   m_TagString: Untagged
@@ -6163,6 +6303,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 100, y: 100}
   m_EdgeRadius: 0
+--- !u!114 &1358764787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1358764781}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b218ac10d0014f846b2d20894bdfd046, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canvas: {fileID: 683205484}
 --- !u!1 &1391994497
 GameObject:
   m_ObjectHideFlags: 0
@@ -7574,6 +7727,7 @@ GameObject:
   - component: {fileID: 1645527343}
   - component: {fileID: 1645527345}
   - component: {fileID: 1645527346}
+  - component: {fileID: 1645527347}
   m_Layer: 5
   m_Name: zoe
   m_TagString: Untagged
@@ -7696,6 +7850,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 100, y: 100}
   m_EdgeRadius: 0
+--- !u!114 &1645527347
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1645527341}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b218ac10d0014f846b2d20894bdfd046, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canvas: {fileID: 683205484}
 --- !u!1 &1688840527
 GameObject:
   m_ObjectHideFlags: 0
@@ -8254,6 +8421,7 @@ GameObject:
   - component: {fileID: 1839357404}
   - component: {fileID: 1839357406}
   - component: {fileID: 1839357407}
+  - component: {fileID: 1839357408}
   m_Layer: 5
   m_Name: zaal
   m_TagString: Untagged
@@ -8376,6 +8544,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 100, y: 100}
   m_EdgeRadius: 0
+--- !u!114 &1839357408
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1839357402}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b218ac10d0014f846b2d20894bdfd046, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canvas: {fileID: 683205484}
 --- !u!1 &1882435254
 GameObject:
   m_ObjectHideFlags: 0
