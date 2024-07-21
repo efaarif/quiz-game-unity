@@ -658,6 +658,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 441596004}
+  - component: {fileID: 441596005}
   m_Layer: 0
   m_Name: L7PAGE1 manager
   m_TagString: Untagged
@@ -680,6 +681,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &441596005
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 441596003}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f96cb88b66ea22d489ec8922a8abb530, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &508013863
 GameObject:
   m_ObjectHideFlags: 0
@@ -1150,7 +1163,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1088311375}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 441596005}
+        m_TargetAssemblyTypeName: L7PAGE1, Assembly-CSharp
+        m_MethodName: backgame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1088311375
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1406,7 +1431,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 870540680}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.22252484
+  m_Size: 0.22252521
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -1756,7 +1781,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1632027479}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 441596005}
+        m_TargetAssemblyTypeName: L7PAGE1, Assembly-CSharp
+        m_MethodName: playL7PAGE2
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1632027479
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2010,8 +2047,8 @@ RectTransform:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
+  - {fileID: 441596004}
   - {fileID: 958778561}
   - {fileID: 363491860}
   - {fileID: 1885264710}
   - {fileID: 966383241}
-  - {fileID: 441596004}
